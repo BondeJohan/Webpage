@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Blog</title>
+        <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    </head>
+
+    <body>
+
+        <header>
+            <h1><b>My Blog</b></h1>
+            <p>Welcome to my blog</p>
+            <nav>
+                <a href="projects.html">My Projects</a>
+                <a href="about.html">About Me</a>
+            </nav>
+        </header>
+        
+        <main>
+
+            <section>
+                <header>
+                    <h3><b>Blog posts</b></h3>
+                    <h5>Title description, <span class="spanOpacityHalf">2022-04-25</span></h5>
+                </header>
+                <article>
+                        <p>This is the first blog post in here</p>
+                </article>
+                <footer>
+                        <p><button class="button button1">READ MORE >></button></p>
+                        <p><b>Comments </b><span class="spanCircle">2</span></p>                         
+                </footer>
+            </section>
+            <section>
+                <header>
+                    <h2>Comments</h2>
+                </header>
+                <article>
+                    <div>
+                        <p>Comments goes here</p><br>
+                    </div>
+                    <form>
+                        <label for="Name">Name:</label><br>
+                        <input type="text" name="Name"/><br>
+                        <label for="emailAddress">Email address:</label><br>
+                        <input type="email" name="emailAddress"/><br>
+                        <input type="checkbox" name="checkbox1"> Check this<br>
+                        <input type="checkbox" name="checkbox1"> And this<br>
+                        <label for="txtNewComment">Comment blog post:</label> <br>
+                        <textarea class="txtNewComment" placeholder="Enter comment here" maxlength="294"></textarea> <br>
+                        <input class="button button1" type="submit" value="Submit">
+                    </form>
+                </article>
+            </section>
+
+        </main>
+
+    </body>
+</html>

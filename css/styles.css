@@ -1,37 +1,41 @@
-.blogMessages{
-    width: 50%;
-    height: 160px;
-    padding: 1rem 2rem;
-    box-sizing: border-box;
-    border: 2px solid black;
-    border-radius: 20px;
-    margin: 16px;
-    background-color: #f8f8f8;
+body{
+    background-color: #f1f1f1;
 }
 
-.commentMessage{
-    width: 25%;
-    height: 160px;
-    padding: 1rem 2rem;
-    box-sizing: border-box;
-    border: 2px solid black;
-    border-radius: 20px;
-    margin: 16px;
-    background-color: #f8f8f8;
+.flexbox-header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
 }
 
-.txtNewComment{
-    width: 25%;
-    height: 10em;
-    padding: 1em 2em;
-    box-sizing: border-box;
-    border: 2px solid black;
-    border-radius: 20px;
-    margin: 1em;
-    background-color: #f8f8f8;
-    font-size: 16px;
-    resize: none;
-    outline: none;
+.flexbox-header-item{
+    margin: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.flexbox-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.flexbox-container-item1{
+    width: 65%;
+    margin: 10px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.flexbox-container-item2{
+    width: 30%;
+    margin: 10px;
+    border: 1px solid black;
+    background-color: white;
 }
 
 .spanOpacityHalf{
@@ -49,25 +53,23 @@
     display: inline-block;
 }
 
-.button{
+.btn{
     background-color: green;
     border: none;
     color: white;
-    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
     cursor: pointer;
 }
 
-.button1{
+.btn1{
     background-color: white;
     color: black;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
-.button1:hover{
+.btn1:hover{
     background-color:lightgray;
 }

@@ -16,33 +16,34 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.flexbox-container1{
+.flexbox-containerMain{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 20px;
 }
 
-.flexbox-container-item1{
-    width: 800px;
+.flexbox-containerBlogPosts{
+    flex-wrap: wrap;
+}
+
+.flexbox-container-BlogItems{
+    width: 900px;
+    height: 400px;
     margin: 10px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 5px 5px 5px gray;
 }
+.flexbox-containerSmall{
+    flex-wrap: wrap;
+}
 
-.flexbox-container-item2{
+
+.flexbox-container-SmallItem{
     width: 300px;
-    margin: 10px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px gray;
-    
-}
-
-.flexbox-container-item3{
-    width: 800px;
+    height: 200px;
     margin: 10px;
     background-color: white;
     border-radius: 10px;

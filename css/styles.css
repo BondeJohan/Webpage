@@ -34,12 +34,12 @@ body{
     margin: 10px;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 5px 5px 5px gray;;
 }
+
 .flexbox-containerSmall{
     flex-wrap: wrap;
 }
-
 
 .flexbox-container-SmallItem{
     width: 300px;

@@ -5,11 +5,45 @@
     <link rel="stylesheet" type="text/css" href="./css/styles.css" />
   </head>
   <body>
-    <header class="flexbox-header">
-      <h1 class="flexbox-header-item">Blog Entry</h1>
-      <nav>
+
+    <section>
+      <header>
+        <h1>Blog Entry</h1>
+        <nav>
+          <a href="index.html"><button class="btn btn1">Back</button></a>
+        </nav>
+      </header>
+      <article>
+        <img class="blogImg" src="img/nasa.jpg" alt="Blog Picture">
+        <h2>So what are we going to talk about</h2>
+        <p>In here we talk a bit what the first blog entry is about.</p>
+      </article>
+      <aside>
+        <h4>Comment section</h4>
+        <form>
+          <input type="text" placeholder="Name"> <br>
+          <input type="email" placeholder="Email"> <br>
+          <input type="checkbox" id="notify">
+          <label for="notify">Notfiy</label>
+          <input type="checkbox" id="get-email">
+          <label for="get-email">Get Email</label><br>
+          <input type="radio" id="subyes" name="sub">
+          <label for="subyes">Sub</label>
+          <input type="radio" id="subno" name="sub">
+          <label for="subno">Do not Sub</label><br>
+          <select name="Test" class="btn btn1">
+            <option value="Public">Public Comment</option>
+            <option value="Private">Private Comment</option>
+          </select><br>
+          <textarea class="commentBlog" placeholder="Enter comment here..." cols="30" rows="10"></textarea> <br>
+          <input type="submit" class="btn btn1" value="Submit">
+          <input type="reset" class="btn btn1" value="Reset"> <br>
+        </form>
+      </aside>
+      <footer>
         <a href="index.html"><button class="btn btn1">Back</button></a>
-      </nav>
-    </header>
+      </footer>
+    </section>
+    
   </body>
 </html>

@@ -1,6 +1,18 @@
+/* Set background color and font-family for the body element */
 body{
     background-color: #f1f1f1;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Set Border around all Tables, Table-Headers, and Table- cells and remove double border */
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/* Set table size */
+.tableStyle{
+    width: 40%;
 }
 
 .spanOpacityHalf{
@@ -32,6 +44,7 @@ input{
     height: 200px;
 }
 
+/* Change button apperence*/
 .btn{
     background-color: green;
     border: none;
@@ -43,14 +56,17 @@ input{
     cursor: pointer;
 }
 
+/* Change button color */
 .btn1{
     background-color: white;
     color: black;
     border: 1px solid black;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px gray;
+    padding: 5px;
+    box-shadow: 3px 3px 3px gray;
 }
 
+/* Change hover color */
 .btn1:hover{
     background-color:#f1f1f1;
 }

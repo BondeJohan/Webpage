@@ -1,59 +1,64 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>My Blog</title>
-        <link rel="stylesheet" type="text/css" href="./css/styles.css">
-    </head>
+  <head>
+    <title>My Blog</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+  </head>
+  <body class="backgroundSpace">
 
-    <body>
+<!-- Not sure if I have done the "sematiska elementen" correctly -->
 
+    <main class="sectionBackgroundColor">
+
+      <header class="headerText">
+        <h1><b>My Blog</b></h1>
+        <p>Welcome to the blog of unknown</p>
+      </header>
+
+      <div class="textParent1">
+        <section  class="textChild1">
+          <header>
+            <h2><b>BLOG ENTRY</b></h2>
+            <h5>Title description, <span class="spanOpacityHalf">2022-04-25</span></h5>
+          </header>
+          <article>
+            <p>This is the first blog post</p>
+          </article>
+          <footer>
+            <a href="firstblogpost.html"><button class="btn btn1">Read More >></button></a>
+            <p><b>Comments </b><span class="spanCircle">2</span></p>
+          </footer>
+        </section>
+
+        <section class="textChild1">
+          <header>
+            <h2><b>TITLE HEADING</b></h2>
+            <h5>Title description, <span class="spanOpacityHalf">2022-04-28</span></h5>
+          </header>
+          <article class=>
+            <p>This is the second blog post</p>
+          </article>
+          <footer>
+            <a href="secondblogpost.html"><button class="btn btn1">Read More >></button></a>
+            <p><b>Comments </b><span class="spanCircle">0</span></p>
+          </footer>
+      </section>
+      </div>
+      
+    <div class="textChildREM1">
+      <section>
         <header>
-            <h1><b>My Blog</b></h1>
-            <p>Welcome to my blog</p>
-            <nav>
-                <a href="projects.html">My Projects</a>
-                <a href="about.html">About Me</a>
-            </nav>
+          <h3><b>About me</b></h3>
         </header>
-        
-        <main>
+        <article>
+          <p>Something about me</p>
+        </article>
+        <footer>
+          <a href="about.html"><button class="btn btn1">About me</button></a>
+        </footer>
+      </section>
+    </div>
 
-            <section>
-                <header>
-                    <h3><b>Blog posts</b></h3>
-                    <h5>Title description, <span class="spanOpacityHalf">2022-04-25</span></h5>
-                </header>
-                <article>
-                        <p>This is the first blog post in here</p>
-                </article>
-                <footer>
-                        <p><button class="button button1">READ MORE >></button></p>
-                        <p><b>Comments </b><span class="spanCircle">2</span></p>                         
-                </footer>
-            </section>
-            <section>
-                <header>
-                    <h2>Comments</h2>
-                </header>
-                <article>
-                    <div>
-                        <p>Comments goes here</p><br>
-                    </div>
-                    <form>
-                        <label for="Name">Name:</label><br>
-                        <input type="text" name="Name"/><br>
-                        <label for="emailAddress">Email address:</label><br>
-                        <input type="email" name="emailAddress"/><br>
-                        <input type="checkbox" name="checkbox1"> Check this<br>
-                        <input type="checkbox" name="checkbox1"> And this<br>
-                        <label for="txtNewComment">Comment blog post:</label> <br>
-                        <textarea class="txtNewComment" placeholder="Enter comment here" maxlength="294"></textarea> <br>
-                        <input class="button button1" type="submit" value="Submit">
-                    </form>
-                </article>
-            </section>
-
-        </main>
-
-    </body>
+    </main>
+  </body>
 </html>

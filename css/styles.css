@@ -31,11 +31,11 @@ body{
 }
 
 .backgroundSpace{
-    background: #f1f1f1 url("/img/space.jpg") no-repeat fixed top left/cover;
+    background: #f1f1f1 url("../img/space.jpg") no-repeat fixed top left/cover;
 }
 
 .backgroundComet{
-    background: darkslateblue url("/img/comet.jpg") no-repeat scroll center/cover;
+    background: darkslateblue url("../img/comet.jpg") no-repeat scroll center/cover;
 }
 
 .sectionBackgroundColor{
